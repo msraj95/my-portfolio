@@ -1,6 +1,6 @@
 <?php
 $page_success = "sent.html";
-//$page_failed = "failed.html";
+$page_failed = "failed.html";
 
 $contact_name=$_POST['name'];
 $contact_email=$_POST['email'];
