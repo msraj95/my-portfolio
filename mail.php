@@ -1,3 +1,4 @@
+//mailing function
 <?php
     $errors = '';
     $myemail = 'Qmdseraj@gmail.com';
