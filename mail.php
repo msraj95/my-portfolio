@@ -15,7 +15,6 @@
     $contact_service=$_POST['subject'];
     $message = $_POST['message'];
 
-
     if( empty($errors)){
         $to = $myemail;
         $email_subject = "Contact Form: Seraj Hassan";
