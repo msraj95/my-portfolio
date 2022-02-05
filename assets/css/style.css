@@ -272,9 +272,9 @@ section .title::after{
 .about .about-content .right .text span{
     color: #0BCEAF;
 }
-.about .about-content .right p{
+/* .about .about-content .right p{
     text-align: justify;
-}
+} */
 .about .about-content .right a{
     display: inline-block;
     background: #0BCEAF;
@@ -356,7 +356,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .skills .skills-content .left p{
-    text-align: justify;
+    /* text-align: justify; */
 	margin-bottom: 10px;
 }
 .skills .skills-content .left a{
