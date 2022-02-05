@@ -356,7 +356,11 @@ section .title::after{
     margin-bottom: 10px;
 }
 .skills .skills-content .left p{
+<<<<<<< HEAD
     /* text-align: justify; */
+=======
+/*     text-align: justify; */
+>>>>>>> ab9ce8875e904e7d1949d7b41b0431b03cea7f4a
 	margin-bottom: 10px;
 }
 .skills .skills-content .left a{
