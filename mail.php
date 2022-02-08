@@ -14,7 +14,7 @@ $to_ccemail = 'seraj@alityart.com';
 //you can give email id to whom you need to send
 $html = 'New Message From Website';
 $subject =  $html;
-=======
+
 //mailing function
 <?php
     $errors = '';
