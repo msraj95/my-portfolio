@@ -181,7 +181,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("../banner3.jpg") no-repeat center; 
+    /* background: url("images/dp-banner.png") no-repeat center;  */
 	background: #0BCEAF;
     height: 100vh;  
     color: #fff;
@@ -236,7 +236,7 @@ section .title::after{
 .home .home-content .left{
     width: 45%;
 }
-.home .home-content .left img{
+/* .home .home-content .left img{
 	margin-top: -202px;
 	margin-left: 440px;
 	margin-right: 1px;
@@ -244,7 +244,7 @@ section .title::after{
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
-}
+} */
 
 
 
@@ -259,7 +259,7 @@ section .title::after{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 26px;
 }
 .about .about-content .right{
     width: 55%;
@@ -410,7 +410,7 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 85%;
 }
 .skills-content .right .js::before{
     width: 80%;
@@ -663,7 +663,7 @@ footer span a:hover{
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
-        height: 350px;
+        height: 260px;
         width: 350px;
     }
 }
@@ -686,9 +686,9 @@ footer span a:hover{
         position: fixed;
         height: 100vh;
         width: 100%;
-        left: -100%;
+        left: 100%;
         top: 0;
-        /* background: #fff; */
+        background: rgb(238, 235, 235);
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -698,6 +698,7 @@ footer span a:hover{
     }
     .navbar .menu.active{
         left: 0;
+        text-align: left;
     }
     .navbar .menu li{
         display: block;
