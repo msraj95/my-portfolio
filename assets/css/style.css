@@ -181,12 +181,13 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    /* background: url("images/dp-banner.png") no-repeat center;  */
-	background: #0BCEAF;
+    background: url("../../images/portf-bc-img.png") no-repeat;
+	/* background: #0BCEAF; */
     height: 100vh;  
     color: #fff;
     min-height: 400px;
-    background: cover;
+    background-size: cover;
+    background-position: center center;
     background-attachment: fixed; 
     font-family: 'Ubuntu', sans-serif;
 }
@@ -219,7 +220,7 @@ section .title::after{
     display: inline-block;
     background: #0BCEAF;;
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     padding: 12px 26px;
     margin-top: 20px;
     font-weight: 400;
@@ -657,6 +658,11 @@ footer span a{
 }
 footer span a:hover{
     text-decoration: underline;
+    color: #fff;
+}
+footer .icon-bar a:hover{
+    text-decoration: underline;
+    color: #fff;
 }
 
 
@@ -762,6 +768,7 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
+
     .home .home-content .text-2{
         font-size: 50px;
     }
